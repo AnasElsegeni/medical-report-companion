@@ -1,0 +1,142 @@
+TITLE: How to Understand Your Lab Results
+SOURCE: MedlinePlus
+URL: https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/
+CATEGORY: general
+
+How to Understand Your Lab Results
+
+What is a laboratory test?
+
+A laboratory (lab) test checks a sample of your blood , urine (pee), or other body fluid or tissue to learn about your health. The sample is sent to a lab where health care professionals test it to see if it contains certain substances and, if so, how much.
+
+Some lab tests can clearly show whether you do or don't have a specific health condition. For example, a pregnancy test can show whether or not you are pregnant.
+
+Other lab tests provide more general information about your health and possible problems. A comprehensive metabolic panel (CMP) , for example, can give your health care provider a good idea of your overall physical health. Any abnormal results in these kinds of general lab tests can give your provider clues about the type of health problems you may have.
+
+Though lab tests are an important part of your health care, they don't provide a complete picture of your health. To get a full picture, your provider will use your results along with:
+
+Information from your physical exam.
+
+Your health history.
+
+Your family health history .
+
+Any imaging tests you may have had, such as x-rays .
+
+In most cases, combining that information leads to a more accurate diagnosis than the results from any one lab test. So, even if you get your test results in your electronic health record (EHR) and can review them, it's still important to talk with your provider to find out what your results really mean for you .
+
+Why do I need a lab test?
+
+Your provider may order a lab test to:
+
+Learn more about a specific part of your health.
+
+Get a general picture of your overall health.
+
+If your provider orders a test to learn more about a specific part of your health, they can use the results to:
+
+Diagnose or rule out a certain disease or condition , especially if you have symptoms. For example, if you're sick with a sore throat, swollen tonsils, and a fever, a strep A test can show you whether you're infected with the bacteria that causes strep throat .
+
+Monitor a condition and/or disease. Test results can help your provider see if your condition is getting better, worse, or staying the same. They can also tell your provider if your treatment is working. For example, a blood glucose test is often used to monitor diabetes and diabetes treatment.
+
+Determine the best treatment option for you. Certain tests can give your provider detailed information about your health condition. Your provider can then use the results of these tests to figure out which treatment will be effective. Tumor marker tests , for example, can help your provider decide how best to treat certain types of cancer .
+
+Lab tests that provide a more general picture of your health are often used even if you don't have any signs or symptoms of a health condition. These tests are usually part of a routine checkup and can tell your provider if you:
+
+Are at high risk for a specific disease. For example, a cholesterol test measures the amount of cholesterol in a sample of your blood. The results can help you understand your risk for heart disease .
+
+Need additional testing. These tests look for signs that you may have a health problem so that you can have more testing to find out for sure. For example, one type of test for colon cancer looks for blood in your stool (poop). If blood is found, it could be a sign of cancer. To find out if it is cancer, your provider may order a colonoscopy .
+
+What is a reference range?
+
+Lab test results are reported in different ways. Some results are a number. For example, your low-density lipoprotein (LDL) result for a cholesterol test may be 125 or 80. But how do you know what that number means?
+
+To answer that question, your lab report tells you whether your test result is in a normal range called a reference range or "normal values." A reference range is a set of numbers that form the high and low ends of the range of results that's considered to be normal. The ranges are based on the test results from large groups of healthy people. A test may have different reference ranges for different groups. For example, there may be separate ranges for children and adults.
+
+Because these ranges can vary, the term "normal" can be misleading. Reference ranges show the average results in a healthy test group. So:
+
+A test result that is higher or lower than the range that applies to you may or may not be a sign of a health problem. It's common for healthy people to sometimes have results outside the reference range. If your results are outside of the range, your provider will look at other information about your health to understand what may have affected your results.
+
+A test result that is within a reference range isn't always a guarantee of good health. Some people with health problems can have results that are considered "normal." Therefore, even if you have a test result within the normal range, you may need additional testing, especially if you have symptoms of a health condition.
+
+When looking at your lab test results, it's helpful to consider two important facts. First, because labs often use different testing methods, they often use different reference ranges to describe normal results. This means that:
+
+To find out how your test results compare with the normal range, you need to check the reference range listed on your lab report. You can't compare your results to reference ranges that you might find elsewhere. This is why our Medical Test information cannot provide normal reference ranges for most tests.
+
+You can't compare test results from different labs.
+
+If you're looking for trends in your test results over time, it's important to try to use the same lab for testing.
+
+Second, test results are measured with different units of measurement. Just as you might measure ingredients for a recipe in teaspoons, cups, or ounces, different tests use different units of measurement. Examples of measurement you may see include:
+
+Mcg/dL = micrograms per deciliter
+
+Micromole/L = micromoles per liter
+
+Pg/mL = picograms per milliliter
+
+What do negative, positive, and inconclusive results mean?
+
+Some test results tell you whether a certain substance, germ, type of cell, or gene was or wasn't found in your test sample. On your test report, you may see these terms:
+
+Negative or normal. This means "No, the test didn't find what it was looking for." So, you're unlikely to have the health problem you were tested for, but you may need more tests.
+
+Positive or abnormal. This means, "Yes, the test found what it was looking for." The germ, substance, or gene being tested was in your sample. So, you may have a disease or infection. In certain cases, you may need more tests to confirm a diagnosis.
+
+Inconclusive or uncertain. This means "not sure." Your test wasn't clearly positive or negative. There are many reasons why this may happen. If you get an uncertain result, you will probably be tested again.
+
+Tests for the COVID-19 virus are an example of tests that tell you whether or not a specific germ was found in your sample.
+
+What are false positive and false negative results?
+
+Tests results are usually accurate, but no test is perfect.
+
+A false positive result means your test shows you have a disease or condition, but you don't really have it.
+
+A false negative result means your test shows you don't have a disease or condition, but you really do.
+
+These incorrect results don't happen often, but they are more likely with certain types of tests, or if testing wasn't done right. If your provider thinks your test result may be inaccurate, you may need to have another test.
+
+What can affect my results?
+
+The accuracy of certain test results may be affected by various common factors. These can include:
+
+Eating and drinking certain foods and drinks.
+
+Taking certain medicines or supplements.
+
+Exercising hard before your test.
+
+Having a menstrual period at the time of your test.
+
+Whether or not you followed preparation instructions, including fasting .
+
+Your provider will let you know if you need to prepare for your test. Follow your provider's instructions carefully. That will help make sure your test results are as accurate as possible. Before your test, let your provider know about all the prescription and over-the-counter medicines you take as well as vitamins and other supplements.
+
+What if I do a home test?
+
+At-home test kits are available for many types of lab tests. The kits provide everything you need to collect a sample of body fluid or cells to send to a lab. At-home tests should never replace testing that your provider orders. Ask your provider or pharmacist to recommend a test you can trust. And talk with your provider about your results, even if they're normal.
+
+References
+
+AARP [Internet]. Washington D.C.: AARP. Your Lab Results Decoded; [cited 2025 Aug 17]; [about 13 screens]. Available from: https://www.aarp.org/health/doctors-hospitals/info-02-2012/understanding-lab-test-results.html
+
+Cleveland Clinic: Health Library: Diagnostics & Testing [Internet]. Cleveland (OH): Cleveland Clinic; c2025. Blood Tests; [reviewed 2022 Dec 06; cited 2025 Aug 17]; [about 16 screens]. Available from: https://my.clevelandclinic.org/health/diagnostics/24508-blood-tests
+
+FDA: U.S. Food and Drug Administration [Internet]. Silver Spring (MD): U.S. Department of Health and Human Services; Tests Used In Clinical Care; [current as of 2018 Sep 27; cited 2025 Aug 17]; [about 2 screens]. Available from: https://www.fda.gov/MedicalDevices/ProductsandMedicalProcedures/InVitroDiagnostics/LabTest/default.htm
+
+MyHealthfinder. [Internet]. Washington D.C.: Office of Disease Prevention and Health Promotion; U.S. Department of Health and Human Services; Doctor Visits: Get Screened: The Basics; [updated 2026 Jan 27; cited 2026 Feb 27]; [about 3 screens]. Available from: https://odphp.health.gov/myhealthfinder/doctor-visits/screening-tests/get-screened
+
+Middlesex Hospital [Internet]. Middletown (CT): Middlesex Hospital c2025. Common Lab Tests; [cited 2025 Aug 17]; [about 6 screens]. Available from: https://middlesexhealth.org/laboratory-services/common-lab-tests
+
+National Cancer Institute [Internet]. Bethesda (MD): U.S. Department of Health and Human Services; About Cancer: Diagnosis and Staging: How Cancer Is Diagnosed; [updated 2023 Jan 17; cited 2025 Aug 17]; [about 8 screens]. Available from: https://www.cancer.gov/about-cancer/diagnosis-staging/understanding-lab-tests-fact-sheet#q1
+
+Nemours KidsHealth [Internet]. Jacksonville (FL): The Nemours Foundation; c1995-2025. Getting a Blood Test; [reviewed 2021 Sep; cited 2025 Aug 17]; [about 4 screens]. Available from: https://kidshealth.org/en/parents/blood-tests.html
+
+O'Kane MJ, Lopez B. Explaining laboratory test results to patients: what the clinician needs to know. BMJ [Internet]. 2015 Dec 3 [cited 2025 Aug 17]; 351(h):5552. Available from: https://www.bmj.com/content/351/bmj.h5552
+
+Testing.com [Internet]. Seattle (WA): OneCare Media; c2025. Deciphering Your Lab Report; [modified 2021 Jan 27; cited 2025 Aug 17]; [about 12 screens]. Available from: https://www.testing.com/articles/how-to-read-your-laboratory-report/
+
+Testing.com [Internet]. Seattle (WA): OneCare Media; c2025. Reference Ranges and What They Mean; [modified 2021 Jul 9; cited 2025 Aug 17]; [about 23 screens]. Available from: https://www.testing.com/articles/laboratory-test-reference-ranges/
+
+The information on this site should not be used as a substitute for professional medical care or advice. Contact a health care provider if you have questions about your health.
