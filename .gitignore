@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+!.vscode/extensions.json
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector database
+vector_db/
+
+# Uploaded medical reports
+uploads/
+data/uploads/
+
+# Generated knowledge / cache
+__pycache__/
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
