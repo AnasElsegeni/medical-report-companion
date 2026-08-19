@@ -1,0 +1,59 @@
+{
+    "sources": [{
+            "id": "medlineplus_lab_results",
+            "title": "How to Understand Your Lab Results",
+            "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+            "organization": "MedlinePlus",
+            "source_type": "official_medical",
+            "category": "general"
+        },
+        {
+            "id": "medlineplus_cbc",
+            "title": "Complete Blood Count (CBC)",
+            "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+            "organization": "MedlinePlus",
+            "source_type": "official_medical",
+            "category": "cbc"
+        },
+        {
+            "id": "medlineplus_hba1c",
+            "title": "Hemoglobin A1C (HbA1c) Test",
+            "url": "https://medlineplus.gov/lab-tests/hemoglobin-a1c-hba1c-test/",
+            "organization": "MedlinePlus",
+            "source_type": "official_medical",
+            "category": "diabetes"
+        },
+        {
+            "id": "medlineplus_creatinine",
+            "title": "Creatinine Test",
+            "url": "https://medlineplus.gov/lab-tests/creatinine-test/",
+            "organization": "MedlinePlus",
+            "source_type": "official_medical",
+            "category": "kidney"
+        },
+        {
+            "id": "medlineplus_cholesterol",
+            "title": "Cholesterol Levels",
+            "url": "https://medlineplus.gov/lab-tests/cholesterol-levels/",
+            "organization": "MedlinePlus",
+            "source_type": "official_medical",
+            "category": "lipid"
+        },
+        {
+            "id": "medlineplus_liver",
+            "title": "Liver Function Tests",
+            "url": "https://medlineplus.gov/lab-tests/liver-function-tests/",
+            "organization": "MedlinePlus",
+            "source_type": "official_medical",
+            "category": "liver"
+        },
+        {
+            "id": "medlineplus_tsh",
+            "title": "TSH Test",
+            "url": "https://medlineplus.gov/lab-tests/tsh-thyroid-stimulating-hormone-test/",
+            "organization": "MedlinePlus",
+            "source_type": "official_medical",
+            "category": "thyroid"
+        }
+    ]
+}
