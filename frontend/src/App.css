@@ -1,0 +1,373 @@
+:root {
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: #e8edf5;
+    background: #0b1020;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+button,
+textarea {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.app {
+    min-height: 100vh;
+    padding: 70px 24px 40px;
+    background: radial-gradient( circle at 50% 0%, rgba(74, 144, 226, 0.16), transparent 35%), #0b1020;
+}
+
+.hero-section {
+    width: min(850px, 100%);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.badge {
+    display: inline-block;
+    padding: 7px 14px;
+    border: 1px solid rgba(110, 180, 255, 0.25);
+    border-radius: 999px;
+    background: rgba(80, 150, 230, 0.08);
+    color: #8dc8ff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+h1 {
+    margin: 22px 0 14px;
+    font-size: clamp(42px, 7vw, 72px);
+    line-height: 1.05;
+    letter-spacing: -2.5px;
+}
+
+h1 span {
+    color: #71b7ff;
+}
+
+.subtitle {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #9aa8bd;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.question-form {
+    margin-top: 38px;
+    padding: 10px;
+    border: 1px solid #26334a;
+    border-radius: 20px;
+    background: rgba(17, 26, 43, 0.9);
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.3);
+}
+
+.question-form textarea {
+    display: block;
+    width: 100%;
+    min-height: 130px;
+    padding: 18px;
+    border: 0;
+    outline: none;
+    resize: vertical;
+    color: #e8edf5;
+    background: transparent;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.question-form textarea::placeholder {
+    color: #64748b;
+}
+
+.question-form button {
+    width: 100%;
+    padding: 14px 20px;
+    border: 0;
+    border-radius: 12px;
+    background: #3987d8;
+    color: white;
+    font-weight: 700;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.question-form button:hover:not(:disabled) {
+    transform: translateY(-1px);
+}
+
+.question-form button:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+}
+
+.examples {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+    color: #6f7f96;
+    font-size: 13px;
+}
+
+.examples button {
+    padding: 7px 12px;
+    border: 1px solid #26334a;
+    border-radius: 999px;
+    background: #111a2b;
+    color: #9db1c9;
+    transition: background 0.2s;
+}
+
+.examples button:hover {
+    background: #19253a;
+}
+
+.result-section {
+    width: min(850px, 100%);
+    margin: 55px auto 0;
+}
+
+.result-card,
+.error-card,
+.loading-card {
+    border: 1px solid #26334a;
+    border-radius: 20px;
+    background: rgba(17, 26, 43, 0.9);
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.25);
+}
+
+.result-card {
+    padding: 28px;
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #26334a;
+}
+
+.result-label {
+    color: #6f9ac5;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.result-header h2 {
+    margin: 8px 0 0;
+    color: #e8edf5;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.verified-badge {
+    flex-shrink: 0;
+    padding: 7px 11px;
+    border: 1px solid rgba(74, 190, 140, 0.25);
+    border-radius: 999px;
+    background: rgba(74, 190, 140, 0.08);
+    color: #70d8aa;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.answer {
+    padding-top: 25px;
+    color: #c5d0df;
+    font-size: 16px;
+    line-height: 1.85;
+    white-space: pre-wrap;
+}
+
+.sources-section {
+    margin-top: 35px;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 16px;
+}
+
+.section-heading h2 {
+    margin: 5px 0 0;
+    font-size: 24px;
+}
+
+.source-count {
+    color: #718198;
+    font-size: 13px;
+}
+
+.sources-list {
+    display: grid;
+    gap: 12px;
+}
+
+.source-card {
+    display: flex;
+    gap: 16px;
+    padding: 18px;
+    border: 1px solid #26334a;
+    border-radius: 15px;
+    background: #111a2b;
+}
+
+.source-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #1c3150;
+    color: #79baff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.source-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.source-content h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.source-name {
+    margin: 5px 0 12px;
+    color: #8394aa;
+    font-size: 13px;
+}
+
+.source-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    color: #687990;
+    font-size: 12px;
+}
+
+.source-meta a {
+    color: #70b7ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.source-meta a:hover {
+    text-decoration: underline;
+}
+
+.error-card,
+.loading-card {
+    width: min(850px, 100%);
+    margin: 35px auto 0;
+    padding: 20px;
+}
+
+.error-card {
+    border-color: rgba(220, 90, 90, 0.35);
+}
+
+.error-card strong {
+    color: #ff8c8c;
+}
+
+.error-card p {
+    margin: 8px 0;
+    color: #c5d0df;
+}
+
+.error-card small {
+    color: #748399;
+}
+
+.loading-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.loading-card strong {
+    color: #dbe5f2;
+}
+
+.loading-card p {
+    margin: 5px 0 0;
+    color: #7d8da3;
+    font-size: 13px;
+}
+
+.loader {
+    width: 28px;
+    height: 28px;
+    border: 3px solid #26334a;
+    border-top-color: #69b3ff;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+.no-sources {
+    padding: 20px;
+    border: 1px solid #26334a;
+    border-radius: 15px;
+    color: #7d8da3;
+    background: #111a2b;
+}
+
+footer {
+    width: min(850px, 100%);
+    margin: 80px auto 0;
+    text-align: center;
+    color: #536278;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 600px) {
+    .app {
+        padding: 45px 16px 30px;
+    }
+    .result-header {
+        flex-direction: column;
+    }
+    .verified-badge {
+        align-self: flex-start;
+    }
+    .source-meta {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
