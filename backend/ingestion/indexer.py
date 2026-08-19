@@ -2,8 +2,8 @@ import json
 import os
 from pathlib import Path
 
-import requests
-from dotenv import load_dotenv
+from fastembed import TextEmbedding
+
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct
 
@@ -24,14 +24,6 @@ COLLECTION_NAME = "medical_reports"
 # Environment
 # --------------------------------------------------
 
-load_dotenv()
-
-JINA_API_KEY = os.getenv("JINA_API_KEY")
-
-if not JINA_API_KEY:
-    raise ValueError("JINA_API_KEY is missing from .env")
-
-
 # --------------------------------------------------
 # Load chunks
 # --------------------------------------------------
@@ -45,19 +37,8 @@ def load_chunks():
 # Jina Embeddings
 # --------------------------------------------------
 
-def get_embeddings(texts):
-    response = requests.post(
-        "https://api.jina.ai/v1/embeddings",
-        headers={
-            "Authorization": f"Bearer {JINA_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "model": "jina-embeddings-v3",
-            "input": texts,
-        },
-        timeout=120,
-    )
+def get_embeddings(model, texts):
+    return list(model.embed(texts))
 
     response.raise_for_status()
 
@@ -97,7 +78,7 @@ def create_qdrant_collection(client):
     client.create_collection(
         collection_name=COLLECTION_NAME,
         vectors_config=VectorParams(
-            size=1024,
+            size=384,
             distance=Distance.COSINE,
         ),
     )
@@ -111,8 +92,8 @@ def create_qdrant_collection(client):
 # Index chunks
 # --------------------------------------------------
 
-def index_chunks(client, chunks):
-
+def index_chunks(client, chunks, model):
+  
     batch_size = 16
     total = len(chunks)
 
@@ -127,24 +108,19 @@ def index_chunks(client, chunks):
 
         print(
             f"Embedding chunks "
-            f"{start + 1}-"
-            f"{min(start + batch_size, total)} "
+            f"{start + 1}-{min(start + batch_size, total)} "
             f"of {total}..."
         )
 
-        embeddings = get_embeddings(texts)
+        embeddings = get_embeddings(model, texts)
 
         points = []
 
-        for offset, (chunk, embedding) in enumerate(
-            zip(batch, embeddings)
-        ):
-
-            point_id = start + offset + 1
+        for chunk, embedding in zip(batch, embeddings):
 
             point = PointStruct(
-                id=point_id,
-                vector=embedding,
+                id=start + len(points),
+                vector=embedding.tolist(),
                 payload={
                     "chunk_id": chunk["id"],
                     "text": chunk["text"],
@@ -164,9 +140,7 @@ def index_chunks(client, chunks):
             points=points,
         )
 
-        print(
-            f"Indexed {len(points)} chunks."
-        )
+        print(f"Indexed {len(points)} chunks.")
 
 
 # --------------------------------------------------
@@ -182,6 +156,14 @@ def main():
     print(
         f"Found {len(chunks)} chunks."
     )
+    
+    print("Loading local embedding model...")
+
+    model = TextEmbedding(
+    model_name="BAAI/bge-small-en-v1.5"
+    )
+
+    print("Embedding model loaded.")
 
     print(
         "Opening persistent Qdrant database..."
@@ -199,9 +181,10 @@ def main():
     create_qdrant_collection(client)
 
     index_chunks(
-        client,
-        chunks,
-    )
+    client,
+    chunks,
+    model,
+   )
 
     collection_info = client.get_collection(
         collection_name=COLLECTION_NAME

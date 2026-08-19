@@ -1,0 +1,85 @@
+[{
+        "id": "T001",
+        "question": "What does a high white blood cell count mean?",
+        "expected_category": "cbc",
+        "expected_source": "MedlinePlus",
+        "should_answer": true
+    },
+    {
+        "id": "T002",
+        "question": "What does a low white blood cell count mean?",
+        "expected_category": "cbc",
+        "expected_source": "MedlinePlus",
+        "should_answer": true
+    },
+    {
+        "id": "T003",
+        "question": "What is a CBC?",
+        "expected_category": "cbc",
+        "expected_source": "MedlinePlus",
+        "should_answer": true
+    },
+    {
+        "id": "T004",
+        "question": "What does a high creatinine level mean?",
+        "expected_category": "kidney",
+        "expected_source": "MedlinePlus",
+        "should_answer": true
+    },
+    {
+        "id": "T005",
+        "question": "What is HbA1c used for?",
+        "expected_category": "diabetes",
+        "expected_source": "MedlinePlus",
+        "should_answer": true
+    },
+    {
+        "id": "T006",
+        "question": "What does TSH measure?",
+        "expected_category": "thyroid",
+        "expected_source": "MedlinePlus",
+        "should_answer": true
+    },
+    {
+        "id": "T007",
+        "question": "What is cholesterol?",
+        "expected_category": "lipid",
+        "expected_source": "MedlinePlus",
+        "should_answer": true
+    }, {
+        "id": "T008",
+        "question": "What does a liver function test measure?",
+        "expected_category": "liver",
+        "expected_source": "MedlinePlus",
+        "should_answer": true
+    },
+
+    {
+        "id": "T009",
+        "question": "What are the symptoms of appendicitis?",
+        "expected_category": null,
+        "expected_source": null,
+        "should_answer": false
+    },
+    {
+        "id": "T010",
+        "question": "What is the treatment for leukemia?",
+        "expected_category": null,
+        "expected_source": null,
+        "should_answer": false
+    },
+    {
+        "id": "T011",
+        "question": "What is the normal blood pressure for a 25 year old?",
+        "expected_category": null,
+        "expected_source": null,
+        "should_answer": false
+    },
+    {
+        "id": "T012",
+        "question": "Can I take ibuprofen if I have kidney disease?",
+        "expected_category": null,
+        "expected_source": null,
+        "should_answer": false
+    }
+]
